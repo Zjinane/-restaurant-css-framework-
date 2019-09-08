@@ -10,15 +10,15 @@
 
     <title>Contact</title>
   </head>
-  <body style="padding-top:5em;" >
-<header >
+  <body  style="background-image:url(../assets/img/card.jpeg); padding-top:9em;">
+<header>
 <!-- Image and text -->
-<nav  class="navbar navbar-light fixed-top bg-light">
-  <a class="navbar-brand" href="#" style="font-family:Arial, Helvetica, sans-serif;font-size: 25px; color: #993300" >
-    <img src="../assets/img/tajin.png" width="30" height="30" class="d-inline-block align-top" alt="">
+<nav  class="navbar navbar-light fixed-top bg-light"style="background-image:url(../assets/img/nav.jpeg)">
+  <a class="navbar-brand" href="#" style="font-family:Arial,font-style: oblique; Helvetica, sans-serif;font-size: 25px;  text-shadow: 2px 2px #ff9900;" >
+    <img src="../assets/img/logo.png" width="45" height="45" class="d-inline-block align-top" alt="">
     Miam Miam
   </a>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-image:url(../assets/img/nav.jpeg) ">
   <a class="navbar-brand" href="index.html">Welcome</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -37,31 +37,64 @@
        <li class="nav-item">
         <a class="nav-link" href="contact.html">Contact</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
-      </li>
     </ul>
   </div>
 </nav> 
 </nav>
 </header>
 
-<article>
-	<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="..." alt="First slide">
+
+<main class="col-8 offset-2">
+<section>
+<form>
+  <div class="form-row">
+    <div class="col"> 
+	<label for="formGroupenom">Nom</label>
+      <input type="text" class="form-control" placeholder="jhon">
     </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="..." alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="..." alt="Third slide">
+    <div class="col">
+	<label for="formGroupeprenom">Prenom</label>
+      <input type="text" class="form-control" placeholder="Dupont">
     </div>
   </div>
+ <div class="form-group">
+  	<label for="formGroupe-mail">e-mail</label>
+    <input type="TEXT" class="form-control" id="formGroupExampleInput2" placeholder="Miam@hotmail.com">
+ </div>
+ </select>
+<select class="form-control form-control-sm">
+  <option>reservation </option>
+  <option>anniversaire</option>
+  <option>reservation plus de 20 personnes</option>
+  <option>mariage</option>
+</select>
+<div class="form-group">
+    <label for="exampleFormControlTextarea1">Message</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+  </div>
+</form>
+</section>
+  
+</main>  
+<footer>
+
+<div class="footer-basic">
+    <footer>
+        <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="#">Home</a></li>
+            <li class="list-inline-item"><a href="#">Services</a></li>
+            <li class="list-inline-item"><a href="#">About</a></li>
+            <li class="list-inline-item"><a href="#">Terms</a></li>
+            <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+        </ul>
+        <p class="copyright">Company Name © 2017</p>
+    </footer>
 </div>
-</article>
-    <!-- Optional JavaScript -->
+
+</footer>
+  
+  <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
