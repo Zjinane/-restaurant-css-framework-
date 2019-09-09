@@ -4,19 +4,18 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <title>Gallery</title>
+    <title>Contact</title>
   </head>
- <body  style="background-image:url(../assets/img/card.jpeg); padding-top:5em;">
+  <body  style="background-image:url(assets/img/card.jpeg); padding-top:9em;">
 <header>
-
-
+<!-- Image and text -->
 <nav  class="navbar navbar-light fixed-top "style="background-color:#F5C821;">
   <a class="navbar-brand" href="#" style="font-family:Arial,font-style: oblique; Helvetica, sans-serif;font-size: 25px;  text-shadow: 2px 2px #FFFFFF;" >
-    <img src="../assets/img/logo.png" width="45" height="45" class="d-inline-block align-top" alt="">
+    <img src="assets/img/logo.png" width="45" height="45" class="d-inline-block align-top" alt="">
     Miam Miam
   </a>
 <nav class="navbar navbar-expand-lg navbar-light " style="background-color:#F5C821; ">
@@ -42,59 +41,51 @@
   </div>
 </nav> 
 </nav>
-
 </header>
 
-<section class="col-12">
-<div class="row justify-content-center">
-  <img src="../assets/img/blackburg.jpeg" style="width:250px;height:250px;" class="rounded" alt="...">
-  <img src="../assets/img/aper.jpeg" style="width:250px;height:250px;"  class="rounded" alt="...">
-  <img src="../assets/img/trucplat.jpeg" style="width:250px;height:250px;" class="rounded" alt="...">
-  <img src="../assets/img/burg.jpeg" style="width:250px;height:250px;" class="rounded" alt="...">
-</div>
-<div class="row justify-content-center">
-  <img src="../assets/img/jumboimg.jpg" style="width:250px;height:250px;" class="rounded" alt="...">
- <img src="../assets/img/quich.jpeg" style="width:250px;height:250px;" class="rounded" alt="...">
-  <img src="../assets/img/platsx.jpeg " style="width:250px;height:250px;" class="rounded" alt="...">
-  <img src="../assets/img/10.jpeg" style="width:250px;height:250px;" class="rounded" alt="...">
-</div>
-<div class="row justify-content-center" >
-  <img src="../assets/img/plats.jpeg" style="width:250px;height:250px;" class="rounded" alt="...">
-  <img src="../assets/img/resto 3.jpeg" style="width:250px;height:250px;" class="rounded" alt="...">
-  <img src="../assets/img/resto ok 1.jpeg" style="width:250px;height:250px;" class="rounded" alt="...">
-  <img src="../assets/img/resto ok do.jpeg" style="width:250px;height:250px;" class="rounded" alt="...">
-</div>
 
-
-
+<main class="col-8 offset-2">
+<section>
+<form>
+  <div class="form-row">
+    <div class="col"> 
+	<label for="formGroupenom">Nom</label>
+      <input type="text" class="form-control" placeholder="jhon">
+    </div>
+    <div class="col">
+	<label for="formGroupeprenom">Prenom</label>
+      <input type="text" class="form-control" placeholder="Dupont">
+    </div>
+  </div>
+ <div class="form-group">
+  	<label for="formGroupe-mail">e-mail</label>
+    <input type="TEXT" class="form-control" id="formGroupExampleInput2" placeholder="Miam@hotmail.com">
+ </div>
+ </select>
+<select class="form-control form-control-sm">
+  <option>reservation </option>
+  <option>anniversaire</option>
+  <option>reservation plus de 20 personnes</option>
+  <option>mariage</option>
+</select>
+<div class="form-group">
+    <label for="exampleFormControlTextarea1">Message</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+  </div>
+    <button class="btn btn"style="background-color:#F5C821;" type="submit"><span class="fa fa-send-o"></span> Envoyer</button>
+</form>
 </section>
+  
+</main>  
+<footer>
+<div class="col-8 offset-2" style="text-align:center;padding:25px ;margin:auto;font-size:60px;"><a href="https://www.snapchat.com/l/fr-fr/"><i class="fa fa-instagram" style="color:#F5C821;padding:25px; "  aria-hidden="true"></i></i></a><a href="https://www.instagram.com/explore/tags/miammiam/?hl=de"><i class="fa fa-snapchat" style="color:#F5C821;padding:25px;"  aria-hidden="true"></i></a><a href="https://twitter.com/hashtag/miammiam?lang=de"><i class="fa fa-twitter" style="color:#F5C821;padding:25px;"  aria-hidden="true"></i></a><a href="https://www.facebook.com/madamemiammiam.de/"><i class="fa fa-facebook"style="color:#F5C821;padding:25px;"  aria-hidden="true"></i></a></div>
 
-<section  class="col-5 offset-5" style="padding:2em">
-  <nav aria-label="Gallery image">
-
-  <ul class="pagination pagination-lg">
-    <li class="page-item disabled">
-      <a class="page-link" href="../templates/gallery.html" tabindex="-1">1</a>
-   </li>
-    <li class="page-item"><a class="page-link" href="../templates/pagination1.html">2</a></li>
-    <li class="page-item"><a class="page-link" href="../templates/pagination2.html">3</a></li>
-    <li class="page-item"><a class="page-link" href="../templates/pagination3.html">4</a></li>
-
-  </ul>
-</nav>
-</section>
-
-
-
-
-
-    <!-- Optional JavaScript -->
+</footer>
+  
+  <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-<script> baguetteBox.run('.tz-gallery');</script>
-
-</body>
+  </body>
 </html>
