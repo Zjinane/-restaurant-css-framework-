@@ -1,8 +1,8 @@
 # restaurant-css-framework
 
 
-![logo](assets/img/logo.png)
 
+<img src="assets/img/logo.png" width="48">
 
 
 
