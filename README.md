@@ -25,7 +25,7 @@ appercu sur ordinateur
 
 
 
-<img src="assets/img/gsm.jpeg" width="80"><img src="assets/img/gsm2.jpeg" width="80"><img src="assets/img/gsm3.jpeg" width="80">
+<img src="assets/img/gsm.jpeg" width="280"><img src="assets/img/gsm2.jpeg" width="280"><img src="assets/img/gsm3.jpeg" width="280">
 
 ------
  appercu sur mobiles
