@@ -11,9 +11,9 @@ Le Responsive Web design est une approche de conception Web qui vise à l'élabo
 ![pc](assets/img/pc.png)
 appercu sur ordinateur
 
-![gsm](assets/img/gsm.jpeg| width=48)
-![gsm](assets/img/gsm2.jpeg| width=48)
-![gsm](assets/img/gsm3.jpeg| width=48)
+![gsm](assets/img/gsm.jpeg= 24x48)
+![gsm](assets/img/gsm2.jpeg= 24x48)
+![gsm](assets/img/gsm3.jpeg= 24x48)
  appercu sur mobiles
 
 
