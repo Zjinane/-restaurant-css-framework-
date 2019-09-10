@@ -2,7 +2,7 @@
 
 
 
-<img src="assets/img/logo.png" width="48">
+<img src="assets/img/logo.png" width="80">
 
 
 
@@ -24,10 +24,9 @@ Le Responsive Web design est une approche de conception Web qui vise à l'élabo
 appercu sur ordinateur
 
 
-******
-![gsm](assets/img/gsm.jpeg)
-![gsm](assets/img/gsm2.jpeg)
-![gsm](assets/img/gsm3.jpeg)
+
+<img src="assets/img/gsm.jpeg" width="80"><img src="assets/img/gsm2.jpeg" width="80"><img src="assets/img/gsm3.jpeg" width="80">
+
 ------
  appercu sur mobiles
 
